@@ -1,5 +1,5 @@
 [package]
-name = "structs_05"
+name = "ch5_structs"
 version = "0.1.0"
 authors = ["soupersauce <soupersauce@gmail.com>"]
 edition = "2018"
