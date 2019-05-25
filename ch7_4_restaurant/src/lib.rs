@@ -6,16 +6,19 @@ mod tests {
     }
 }
 
-mod front_of_house {
-    pub mod hosting {
-        pub fn add_to_waitlist() {}
-    }
-}
+use std::collections::HashMap;
+use std::fmt::Result;
+use std::io::Result as IoResult;
 
-use crate::front_of_house::hosting;
+// fn function1() -> Result {
 
-pub fn eat_at_restaurant() {
-    hosting::add_to_waitlist();
-    hosting::add_to_waitlist();
-    hosting::add_to_waitlist();
+// }
+
+// fn function2() -> IoResult<()> {
+//     IoResult<()>
+// }
+
+fn use_hashmap_function() {
+    let mut map = HashMap::new();
+    map.insert(1, 2);
 }
