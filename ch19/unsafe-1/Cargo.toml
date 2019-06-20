@@ -1,6 +1,5 @@
 [package]
-name = "refutability-1"
-name = "refutability"
+name = "unsafe-1"
 version = "0.1.0"
 authors = ["soupersauce <soupersauce@gmail.com>"]
 edition = "2018"
